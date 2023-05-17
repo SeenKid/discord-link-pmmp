@@ -1,0 +1,15 @@
+name: DiscordInvite
+author: SeenKid
+version: 1.0.0
+api: 4.0.0
+main: discordinvite\Main
+
+commands:
+  discord:
+    usage: /discord
+    description: "Envoie un lien du serveur discord"
+    permission: discord.cmd
+
+permissions:
+  discord.cmd:
+    default: true
